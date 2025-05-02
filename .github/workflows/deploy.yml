@@ -1,6 +1,8 @@
-name: Deploy White Paper
+name: Deploy Jekyll Site
 
-on: [push]
+on:
+  push:
+    branches: [ main ]
 
 jobs:
   deploy:
@@ -9,12 +11,25 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      - uses: ruby/setup-ruby@v1
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.1'
-      - run: gem install jekyll
-      - run: jekyll build --destination ./_site
-      - uses: peaceiris/actions-gh-pages@v3
+          bundler-cache: true
+
+      - name: Install Dependencies
+        run: |
+          gem install jekyll
+          gem install minima
+
+      - name: Build with Jekyll
+        run: |
+          bundle install
+          bundle exec jekyll build --destination ./_site
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
