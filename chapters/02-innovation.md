@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Chapter 2: Key Innovations Compared to Existing Solutions"
+title: "Innovation"
 ---
 
 As the Web3 ecosystem evolves at an unprecedented pace, the scale and complexity of security requirements continue to escalate. ChainFox introduces a suite of groundbreaking technical innovations that distinguish it from conventional blockchain security platforms and auditing tools, addressing critical deficiencies in coverage, efficiency, and transparency.

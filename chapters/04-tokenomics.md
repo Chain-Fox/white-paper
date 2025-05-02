@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Chapter 4: Tokenomics & Ecosystem Incentive Architecture"
+title: "Tokenomics"
 ---
 
 Chain-Fox adopts a utility-driven token model that aligns platform usage, open-source contribution, and stakeholder governance into a sustainable economic loop. The CFX token functions not just as a payment mechanism, but as a representation of rights, incentives, and long-term participation in the security infrastructure ecosystem.

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Chapter 1: Introduction"
+title: "Introduction"
 ---
 
 ### 1.1 Introduction

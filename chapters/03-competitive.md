@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Chapter 3: Competitive Landscape"
+title: "Competitive"
 ---
 
 As the blockchain industry advances, the need for secure, scalable, and cost-effective smart contract auditing solutions has become paramount. A diverse array of auditing tools and platforms has emerged to address this demand, yet many are constrained by limited language support, proprietary frameworks, or high operational costs. ChainFox enters this landscape as a modular, open-source platform, purpose-built for the multi-chain Web3 ecosystem, delivering unparalleled versatility and accessibility.

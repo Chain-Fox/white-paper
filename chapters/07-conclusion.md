@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Chapter 7: Roadmap & Conclusion"
+title: "Roadmap"
 ---
 
 ### 7.1. Short-term Goals (1-6 months)
