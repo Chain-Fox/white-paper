@@ -1,4 +1,3 @@
-
 ## 1. ChainFox: Revolutionizing Blockchain Security Through Automated Vulnerability Detection
 
 ### 1.1 Introduction

@@ -1,5 +1,4 @@
-
-## **6. Ecosystem Adoption & Metrics**
+## 6. Ecosystem Adoption & Metrics
 
 Chain-Fox is more than a security platform — it is a growing, mission-critical ecosystem where developers, enterprises, and node operators converge to share, protect, and accelerate the Web3 economy. The platform’s adoption trajectory reflects strong organic demand, community engagement, and institutional confidence.
 
