@@ -56,5 +56,5 @@ In the event of a critical vulnerability or attack, Chain-Fox can trigger:
 
 This dynamic response mechanism reduces downtime and reputational loss in high-severity scenarios.
 
-**Summary:**
+### Summary:
 Chain-Fox embeds security at every level — from protocol logic to legal structures — ensuring both technical and institutional resilience. As a platform that audits others, it must be the most secure layer in the stack. This chapter proves that security is not just a product; it's the foundation of Chain-Fox itself.

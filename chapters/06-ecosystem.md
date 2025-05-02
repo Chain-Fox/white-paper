@@ -61,5 +61,5 @@ The ecosystem grows stronger with each contributor and each audit:
 
 This compounding network effect forms the backbone of the CFX economy and the Chain-Fox platform vision.
 
-**Summary:**
+### Summary:
 Adoption metrics validate the demand for a scalable, decentralized, multi-language security infrastructure. As usage grows, so does the value of participation — both for developers and token holders — reinforcing a sustainable, value-backed ecosystem.
