@@ -1,8 +1,3 @@
----
-title: "5. Risk Management & Compliance Framework"
-layout: page
-permalink: /chapters/
----
 
 ## **5. Risk Management & Compliance Framework**
 

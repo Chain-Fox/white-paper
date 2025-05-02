@@ -1,8 +1,4 @@
----
-title: "3. Competitive Landscape"
-layout: page
-permalink: /chapters/
----
+
 
 ## 3. Competitive Landscape
 

@@ -1,8 +1,4 @@
----
-title: "4. Tokenomics"
-layout: page
-permalink: /chapters/
----
+
 
 ## **4. Tokenomics & Ecosystem Incentive Architecture**
 

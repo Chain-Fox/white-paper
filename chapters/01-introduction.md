@@ -1,8 +1,3 @@
----
-title: "1. Introduction"
-layout: page
-permalink: /chapters/
----
 
 ## 1. ChainFox: Revolutionizing Blockchain Security Through Automated Vulnerability Detection
 

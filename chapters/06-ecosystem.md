@@ -1,8 +1,3 @@
----
-title: "6. Ecosystem Adoption & Metrics"
-layout: page
-permalink: /chapters/
----
 
 ## **6. Ecosystem Adoption & Metrics**
 
