@@ -1,3 +1,5 @@
 title: "The White Paper of Chain-Fox"
 description: "Chain-Fox"
 theme: minima  # Clean default theme
+plugins:
+  - jekyll-feed
