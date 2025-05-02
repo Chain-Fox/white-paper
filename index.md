@@ -1,8 +1,3 @@
----
-layout: default
-title: "White Paper: Project Chain-Fox"
----
-
 Welcome to Chain-Fox. This is the draft of our white paper.
 
 
