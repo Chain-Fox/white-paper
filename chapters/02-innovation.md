@@ -47,8 +47,6 @@ In contrast to proprietary auditing services, ChainFox embraces an **open-source
 
 This open development paradigm promotes collective responsibility for blockchain security and cultivates a vibrant ecosystem of contributors, ensuring ChainFox remains at the forefront of innovation.
 
----
-
 ### Summary
 
 Through its multi-language support, modular detection framework, end-to-end automation, and open-source governance, ChainFox represents a transformative leap forward in blockchain security tooling. By directly addressing critical pain points—such as limited language coverage, protracted audit processes, and lack of transparency—ChainFox establishes itself as a next-generation platform for securing decentralized systems. With its commitment to scalability, precision, and community collaboration, ChainFox is poised to redefine the standard for blockchain security in the Web3 era.

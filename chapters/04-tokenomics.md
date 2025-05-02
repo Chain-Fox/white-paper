@@ -83,8 +83,6 @@ This loop ensures:
 * **Risk-Adjusted Rewards**
   A portion of staking returns can be redirected to insurance or buyback funds during security incidents, stabilizing the system during volatility.
 
----
-
 ### 4.5 Recommendations for Execution
 
 To operationalize this model, we suggest:
