@@ -1,4 +1,10 @@
-## **Chapter: Roadmap & Conclusion**
+---
+title: "7. Roadmap & Conclusion"
+layout: page
+permalink: /chapters/
+---
+
+## **Roadmap & Conclusion**
 
 ### **1. Roadmap**
 

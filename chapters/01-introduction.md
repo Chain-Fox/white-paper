@@ -1,7 +1,7 @@
 ---
 title: "1. Introduction"
 layout: page
-permalink: /introduction/
+permalink: /chapters/
 ---
 
 # ChainFox: Revolutionizing Blockchain Security Through Automated Vulnerability Detection

@@ -1,3 +1,9 @@
+---
+title: "5. Risk Management & Compliance Framework"
+layout: page
+permalink: /chapters/
+---
+
 ## **5. Risk Management & Compliance Framework**
 
 This chapter demonstrates to institutional partners, developers, and regulators that Chain-Fox takes security and legal integrity seriously — especially important for a platform operating in decentralized security and handling payment tokens.
