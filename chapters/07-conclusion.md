@@ -3,8 +3,6 @@ layout: page
 title: "Chapter 7: Roadmap & Conclusion"
 ---
 
-## 7. Roadmap & Conclusion
-
 ### 7.1. Short-term Goals (1-6 months)
 
 * **Product Enhancements**:
