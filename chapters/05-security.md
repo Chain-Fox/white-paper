@@ -1,10 +1,10 @@
 ---
 layout: page
-title: "Security & Compliance
+title: "Security & Compliance"
 ---
 
+## Risk Management & Compliance Framework
 Chain-Fox operates in a domain where the integrity of code, data, and financial infrastructure must be beyond reproach. To that end, the platform incorporates proactive risk mitigation strategies and adheres to evolving global compliance standards to build long-term trust.
-
 
 ### 5.1 Risk Categories & Mitigation Strategies
 

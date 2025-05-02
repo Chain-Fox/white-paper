@@ -3,6 +3,8 @@ layout: page
 title: "Introduction"
 ---
 
+## Revolutionizing Blockchain Security Through Automated Vulnerability Detection
+
 ### 1.1 Introduction
 
 The blockchain industry has experienced exponential growth, driving the adoption of decentralized applications and smart contracts that redefine trust and transparency in digital ecosystems. However, the increasing complexity of blockchain systems presents significant security challenges. Traditional manual security audits, while effective, are resource-intensive, time-consuming, and costly, creating barriers to rapid and secure smart contract deployment. With vulnerabilities in smart contracts potentially leading to substantial financial losses and reputational harm, there is a critical need for scalable, efficient, and reliable security solutions.

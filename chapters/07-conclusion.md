@@ -3,8 +3,9 @@ layout: page
 title: "Roadmap"
 ---
 
-### 7.1. Short-term Goals (1-6 months)
+## Roadmap & Conclusion
 
+### 7.1. Short-term Goals (1-6 months)
 * **Product Enhancements**:
 
     * Finalize platform development for seamless AI integration.
