@@ -12,7 +12,7 @@ The current smart contract auditing market can be broadly categorized into two s
 While these tools excel within their respective domains, they struggle to address the growing complexity and heterogeneity of multi-chain environments, creating a need for a more inclusive and agile security solution.
 
 
-### **3.2 Comparative Feature Matrix**
+### 3.2 Comparative Feature Matrix
 
 | Feature / Platform               | **Chain-Fox**                 | CertiK   | MythX    | Slither  | OpenZeppelin Defender |
 | -------------------------------- | ----------------------------- | -------- | -------- | -------- | --------------------- |

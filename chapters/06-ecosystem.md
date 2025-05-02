@@ -4,7 +4,7 @@ Chain-Fox is more than a security platform — it is a growing, mission-critical
 
 ---
 
-### **6.1 Developer Ecosystem Growth**
+### 6.1 Developer Ecosystem Growth
 
 Chain-Fox was built with developer-first principles: open-source, modular, and extensible.
 
@@ -19,7 +19,7 @@ Chain-Fox was built with developer-first principles: open-source, modular, and e
 
 ---
 
-### **6.2 Enterprise & User Adoption**
+### 6.2 Enterprise & User Adoption
 
 * **Pilot Clients**:
   Select L1 and L2 projects have onboarded Chain-Fox for automated audit previews and continuous monitoring of deployed smart contracts.
@@ -32,7 +32,7 @@ Chain-Fox was built with developer-first principles: open-source, modular, and e
 
 ---
 
-### **6.3 Node Network Expansion**
+### 6.3 Node Network Expansion
 
 * **Decentralized Compute**:
   Detection workloads are being distributed across testnet nodes deployed on AWS, Hetzner, and ARM-based devices, proving cross-architecture compatibility.
@@ -42,7 +42,7 @@ Chain-Fox was built with developer-first principles: open-source, modular, and e
 
 ---
 
-### **6.4 Platform Impact Metrics** *(examples, not final numbers)*
+### 6.4 Platform Impact Metrics (examples, not final numbers)
 
 | Metric                            | Status                                           |
 | --------------------------------- | ------------------------------------------------ |
@@ -55,7 +55,7 @@ Chain-Fox was built with developer-first principles: open-source, modular, and e
 
 ---
 
-### **6.5 Ecosystem Flywheel Effects**
+### 6.5 Ecosystem Flywheel Effects
 
 The ecosystem grows stronger with each contributor and each audit:
 

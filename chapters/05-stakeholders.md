@@ -1,16 +1,10 @@
 ## 5. Risk Management & Compliance Framework
 
-This chapter demonstrates to institutional partners, developers, and regulators that Chain-Fox takes security and legal integrity seriously — especially important for a platform operating in decentralized security and handling payment tokens.
-
----
-
-## **5. Risk Management & Compliance Framework**
-
 Chain-Fox operates in a domain where the integrity of code, data, and financial infrastructure must be beyond reproach. To that end, the platform incorporates proactive risk mitigation strategies and adheres to evolving global compliance standards to build long-term trust.
 
 ---
 
-### **5.1 Risk Categories & Mitigation Strategies**
+### 5.1 Risk Categories & Mitigation Strategies
 
 | Risk Type                    | Potential Impact         | Mitigation Mechanism                                               |
 | ---------------------------- | ------------------------ | ------------------------------------------------------------------ |
@@ -22,7 +16,7 @@ Chain-Fox operates in a domain where the integrity of code, data, and financial 
 
 ---
 
-### **5.2 Data Security and Auditability**
+### 5.2 Data Security and Auditability
 
 * **Immutable Logging**:
   All scan results, detection events, and report metadata are hashed and recorded on-chain for auditability (e.g. via Arweave/IPFS).
@@ -35,7 +29,7 @@ Chain-Fox operates in a domain where the integrity of code, data, and financial 
 
 ---
 
-### **5.3 Compliance Architecture**
+### 5.3 Compliance Architecture
 
 * **Data Compliance**
 
@@ -54,7 +48,7 @@ Chain-Fox operates in a domain where the integrity of code, data, and financial 
 
 ---
 
-### **5.4 Adaptive Threat Response**
+### 5.4 Adaptive Threat Response
 
 In the event of a critical vulnerability or attack, Chain-Fox can trigger:
 
