@@ -1,5 +1,9 @@
-## 3. Competitive Landscape
+---
+layout: page
+title: "Competitive"
+---
 
+## Competitive Landscape
 As the blockchain industry advances, the need for secure, scalable, and cost-effective smart contract auditing solutions has become paramount. A diverse array of auditing tools and platforms has emerged to address this demand, yet many are constrained by limited language support, proprietary frameworks, or high operational costs. ChainFox enters this landscape as a modular, open-source platform, purpose-built for the multi-chain Web3 ecosystem, delivering unparalleled versatility and accessibility.
 
 ### 3.1 Market Overview
@@ -12,7 +16,7 @@ The current smart contract auditing market can be broadly categorized into two s
 While these tools excel within their respective domains, they struggle to address the growing complexity and heterogeneity of multi-chain environments, creating a need for a more inclusive and agile security solution.
 
 
-### **3.2 Comparative Feature Matrix**
+### 3.2 Comparative Feature Matrix
 
 | Feature / Platform               | **Chain-Fox**                 | CertiK   | MythX    | Slither  | OpenZeppelin Defender |
 | -------------------------------- | ----------------------------- | -------- | -------- | -------- | --------------------- |
@@ -33,8 +37,6 @@ ChainFox is meticulously engineered to meet the needs of next-generation multi-c
 - **Open-Source and Modular Design**: ChainFox’s community-driven, open-source model, combined with its modular checker architecture, enables rapid evolution and the deployment of custom detection rules. This flexibility ensures the platform remains agile in addressing emerging threats and ecosystem requirements.
 - **Automation-Centric Approach**: Designed for seamless integration into CI/CD pipelines, ChainFox delivers real-time, automated vulnerability detection, eliminating manual bottlenecks. This scalability empowers developers to maintain continuous security without compromising development velocity.
 - **Incentive-Aligned Governance**: Through the **CFX token** and its decentralized autonomous organization (DAO), ChainFox fosters active participation from developers, node operators, and security researchers in ecosystem governance. This tokenized model aligns incentives, promoting collaborative innovation and long-term platform sustainability.
-
----
 
 ### Conclusion
 

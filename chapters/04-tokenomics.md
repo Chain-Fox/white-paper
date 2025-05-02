@@ -1,11 +1,12 @@
-
-## **4. Tokenomics & Ecosystem Incentive Architecture**
-
-Chain-Fox adopts a utility-driven token model that aligns platform usage, open-source contribution, and stakeholder governance into a sustainable economic loop. The CFX token functions not just as a payment mechanism, but as a representation of rights, incentives, and long-term participation in the security infrastructure ecosystem.
-
+---
+layout: page
+title: "Tokenomics"
 ---
 
-### **4.1 Core Utilities of the CFX Token**
+## Tokenomics & Ecosystem Incentive Architecture
+Chain-Fox adopts a utility-driven token model that aligns platform usage, open-source contribution, and stakeholder governance into a sustainable economic loop. The CFX token functions not just as a payment mechanism, but as a representation of rights, incentives, and long-term participation in the security infrastructure ecosystem.
+
+### 4.1 Core Utilities of the CFX Token
 
 CFX is designed to fulfill three key functions across the ecosystem:
 
@@ -18,9 +19,7 @@ CFX is designed to fulfill three key functions across the ecosystem:
 * **Governance & Dividends**
   CFX holders participate in key governance decisions — such as support for new chain integrations, security policy updates, and treasury deployment — and share in protocol profits via a revenue-sharing mechanism.
 
----
-
-### **4.2 Economic Loop & Deflation Mechanics**
+### 4.2 Economic Loop & Deflation Mechanics
 
 The CFX economy is built on a positive feedback loop between developers, users, and token holders:
 
@@ -42,9 +41,7 @@ This loop ensures:
 * Deflation through burn mechanisms
 * Long-term alignment between usage and value capture
 
----
-
-### **4.3 Stakeholder Incentive Model**
+### 4.3 Stakeholder Incentive Model
 
 #### **Developers**
 
@@ -66,9 +63,7 @@ This loop ensures:
     * **Token appreciation** via reduced circulating supply and usage growth
 * Reduced sell pressure via long-term staking commitments
 
----
-
-### **4.4 Innovation Highlights in Token Design**
+### 4.4 Innovation Highlights in Token Design
 
 * **Token = Equity**
   CFX represents both platform access and governance influence — moving beyond the “utility token” mold into functional digital equity.
@@ -79,9 +74,7 @@ This loop ensures:
 * **Risk-Adjusted Rewards**
   A portion of staking returns can be redirected to insurance or buyback funds during security incidents, stabilizing the system during volatility.
 
----
-
-### **4.5 Recommendations for Execution**
+### 4.5 Recommendations for Execution
 
 To operationalize this model, we suggest:
 

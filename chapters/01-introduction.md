@@ -1,12 +1,11 @@
 ---
-title: "1. Introduction"
 layout: page
-permalink: /introduction/
+title: "Introduction"
 ---
 
-# ChainFox: Revolutionizing Blockchain Security Through Automated Vulnerability Detection
+## Revolutionizing Blockchain Security Through Automated Vulnerability Detection
 
-## 1. Introduction
+### 1.1 Introduction
 
 The blockchain industry has experienced exponential growth, driving the adoption of decentralized applications and smart contracts that redefine trust and transparency in digital ecosystems. However, the increasing complexity of blockchain systems presents significant security challenges. Traditional manual security audits, while effective, are resource-intensive, time-consuming, and costly, creating barriers to rapid and secure smart contract deployment. With vulnerabilities in smart contracts potentially leading to substantial financial losses and reputational harm, there is a critical need for scalable, efficient, and reliable security solutions.
 
@@ -14,6 +13,6 @@ The blockchain industry has experienced exponential growth, driving the adoption
 
 ChainFox's innovative approach integrates cutting-edge technology to provide precise, scalable, and cost-effective security solutions. By reducing reliance on manual interventions, the platform empowers developers to build and deploy secure decentralized applications with confidence, fostering trust and resilience in the Web3 ecosystem.
 
-## 2. Vision
+### 1.2 Vision
 
 ChainFox is dedicated to transforming blockchain security through an AI-enhanced, multi-language, automated vulnerability detection platform. Our vision is to empower the Web3 ecosystem with scalable, real-time security infrastructure, ensuring blockchain applications are protected against emerging threats and vulnerabilities. Through continuous innovation and a commitment to accessibility, ChainFox aims to establish a new benchmark for secure blockchain development, enabling a safer, more inclusive decentralized future.

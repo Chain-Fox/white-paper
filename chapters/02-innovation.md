@@ -1,5 +1,9 @@
-## 2. Key Innovations Compared to Existing Solutions
+---
+layout: page
+title: "Innovation"
+---
 
+## Key Innovations Compared to Existing Solutions
 As the Web3 ecosystem evolves at an unprecedented pace, the scale and complexity of security requirements continue to escalate. ChainFox introduces a suite of groundbreaking technical innovations that distinguish it from conventional blockchain security platforms and auditing tools, addressing critical deficiencies in coverage, efficiency, and transparency.
 
 ### 2.1 Multi-Language, Full-Stack Vulnerability Detection
@@ -41,8 +45,6 @@ In contrast to proprietary auditing services, ChainFox embraces an **open-source
 - Auditing and verifying the integrity of the detection logic.
 
 This open development paradigm promotes collective responsibility for blockchain security and cultivates a vibrant ecosystem of contributors, ensuring ChainFox remains at the forefront of innovation.
-
----
 
 ### Summary
 
