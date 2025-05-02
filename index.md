@@ -4,16 +4,12 @@ title: "Chain-Fox White Paper"
 nav_order: 1
 ---
 
-# Chain-Fox White Paper
+Welcome to Chain-Fox. This is the draft of our white paper.
 
-### ChainFox: Revolutionizing Blockchain Security Through Automated Vulnerability Detection
 
-### Key Innovations Compared to Existing Solutions
-### Competitive Landscape
-### Tokenomics & Ecosystem
-### Incentive Architecture
-### Risk Management & Compliance Framework
-### Ecosystem Adoption & Metrics
-### Roadmap & Conclusion
+We will publish the white paper soon.
 
-Welcome to Chain-Fox. This is the draft of our white paper. We will publish the white paper soon.
+
+{% for chapter in site.chapters %}
+- [{{ chapter.title }}]({{ chapter.url }})
+{% endfor %}
