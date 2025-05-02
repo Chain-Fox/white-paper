@@ -7,10 +7,10 @@ Welcome to Chain-Fox. This is the draft of our white paper.
 
 We will publish the white paper soon.
 
-- [Introduction](/chapters/01-introduction.md)
-- [Innovation](/chapters/02-innovation.md)
-- [Competitive](/chapters/03-competitive.md)
-- [Tokenomics](/chapters/04-tokenomics.md)
-- [Stakeholders](/chapters/05-stakeholders.md)
-- [Ecosystem](/chapters/06-ecosystem.md)
-- [Conclusion](/chapters/07-conclusion.md)
+- [Introduction](/chapters/01-introduction.html)
+- [Innovation](/chapters/02-innovation.html)
+- [Competitive](/chapters/03-competitive.html)
+- [Tokenomics](/chapters/04-tokenomics.html)
+- [Stakeholders](/chapters/05-stakeholders.html)
+- [Ecosystem](/chapters/06-ecosystem.html)
+- [Conclusion](/chapters/07-conclusion.html)
