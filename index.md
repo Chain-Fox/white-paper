@@ -7,7 +7,7 @@ Welcome to Chain-Fox. This is the draft of our white paper.
 
 We will publish the white paper soon.
 
-- [Introduction](/chapters/01-introduction.html)
+- [Introduction](/introduction/)
 - [Innovation](/chapters/02-innovation.html)
 - [Competitive](/chapters/03-competitive.html)
 - [Tokenomics](/chapters/04-tokenomics.html)
