@@ -1,5 +1,5 @@
 ---
-layout: chapter
+layout: page
 title: "Chapter 5: Risk Management & Compliance Framework"
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: chapter
+layout: page
 title: "Chapter 3: Competitive Landscape"
 ---
 

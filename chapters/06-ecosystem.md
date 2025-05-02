@@ -1,5 +1,5 @@
 ---
-layout: chapter
+layout: page
 title: "Chapter 6: Ecosystem Adoption & Metrics"
 ---
 

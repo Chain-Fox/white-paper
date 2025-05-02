@@ -1,5 +1,5 @@
 ---
-layout: chapter
+layout: page
 title: "Chapter 7: Roadmap & Conclusion"
 ---
 

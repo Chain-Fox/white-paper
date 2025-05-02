@@ -1,5 +1,5 @@
 ---
-layout: chapter
+layout: page
 title: "Chapter 2: Key Innovations Compared to Existing Solutions"
 ---
 

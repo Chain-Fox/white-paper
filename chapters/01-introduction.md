@@ -1,5 +1,5 @@
 ---
-layout: chapter
+layout: page
 title: "Chapter 1: Introduction"
 ---
 
