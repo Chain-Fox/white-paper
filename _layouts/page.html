@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+<div class="page-header">
+  <h1>{{ page.title }}</h1>
+</div>
+
+<div class="whitepaper-container">
+  <div class="whitepaper-sidebar">
+    <h3>Contents</h3>
+    {% assign pages = site.pages | where_exp: "item", "item.path contains 'chapters/'" | sort: "path" %}
+    <ul class="chapter-list">
+      {% for p in pages %}
+        <li>
+          <a href="{{ p.url | relative_url }}" {% if p.url == page.url %}class="active"{% endif %}>
+            {{ p.title }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="whitepaper-content-wrapper">
+    <div class="card whitepaper-content">
+      {{ content }}
+    </div>
+
+    <div class="page-navigation">
+      <div class="nav-buttons">
+        {% for p in pages %}
+          {% if p.url == page.url %}
+            {% assign current_index = forloop.index0 %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+
+        {% if current_index > 0 %}
+          {% assign prev_page = pages[current_index | minus: 1] %}
+          <a href="{{ prev_page.url | relative_url }}" class="btn nav-prev">
+            <i class="fas fa-arrow-left"></i> Previous: {{ prev_page.title }}
+          </a>
+        {% endif %}
+
+        {% if current_index < pages.size | minus: 1 %}
+          {% assign next_page = pages[current_index | plus: 1] %}
+          <a href="{{ next_page.url | relative_url }}" class="btn nav-next">
+            Next: {{ next_page.title }} <i class="fas fa-arrow-right"></i>
+          </a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>

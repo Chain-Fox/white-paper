@@ -1,0 +1,23 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-links">
+        {% if site.social.github %}
+          <a class="footer-link" href="https://github.com/{{ site.social.github }}" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        {% endif %}
+        {% if site.social.twitter %}
+          <a class="footer-link" href="https://twitter.com/{{ site.social.twitter }}" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+        {% endif %}
+        {% if site.social.discord %}
+          <a class="footer-link" href="https://discord.gg/{{ site.social.discord }}" target="_blank"><i class="fab fa-discord"></i> Discord</a>
+        {% endif %}
+        {% if site.social.telegram %}
+          <a class="footer-link" href="https://t.me/{{ site.social.telegram }}" target="_blank"><i class="fab fa-telegram"></i> Telegram</a>
+        {% endif %}
+      </div>
+      <div class="copyright">
+        &copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.
+      </div>
+    </div>
+  </div>
+</footer>

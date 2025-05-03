@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<div class="whitepaper-header">
+  <h1>{{ page.title }}</h1>
+  <p class="whitepaper-description">A revolutionary blockchain security solution protecting smart contracts through automated vulnerability detection</p>
+  <div class="whitepaper-buttons">
+    <a href="{{ "/chapters/01-introduction.html" | relative_url }}" class="btn">Start Reading <i class="fas fa-arrow-right"></i></a>
+  </div>
+</div>
+
+<div class="whitepaper-container">
+  <div class="whitepaper-sidebar">
+    <h3>Contents</h3>
+    {% assign pages = site.pages | where_exp: "item", "item.path contains 'chapters/'" | sort: "path" %}
+    <ul class="chapter-list">
+      {% for p in pages %}
+        <li>
+          <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="whitepaper-content-wrapper">
+    <div class="card whitepaper-content">
+      <h2>Overview</h2>
+      <p>The Chain-Fox Whitepaper details our blockchain security solution that provides comprehensive protection for blockchains and smart contracts through automated vulnerability detection technology. This document covers the technical architecture, innovations, applications, and future development plans.</p>
+
+      {{ content }}
+    </div>
+  </div>
+</div>
