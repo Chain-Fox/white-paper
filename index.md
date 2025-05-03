@@ -13,3 +13,4 @@ We will publish the white paper soon.
 - [Tokenomics](/white-paper/chapters/04-tokenomics.html)
 - [Security](/white-paper/chapters/05-security.html)
 - [Ecosystem](/white-paper/chapters/06-ecosystem.html)
+- [Roadmap](/white-paper/chapters/07-roadmap.html)
