@@ -1,3 +1,22 @@
-title: "The White Paper of Chain-Fox"
-description: "The White Paper of Chain-Fox"
-theme: minima  # Clean default theme
+title: "Chain-Fox"
+description: "革命性的区块链安全解决方案，通过自动化漏洞检测保护您的智能合约"
+baseurl: "/white-paper"  # 如果您的网站托管在子目录中，请设置此项
+url: ""  # 您的网站 URL
+lang: "zh-CN"  # 默认语言
+
+# 社交媒体链接
+social:
+  github: Chain-Fox
+  twitter: ChainFoxSec
+  discord: chainfox
+  telegram: chainfox
+
+# 导航链接
+nav_links:
+  - title: "首页"
+    url: "/"
+  - title: "白皮书"
+    url: "/chapters/01-introduction.html"
+
+# 不使用默认主题，而是使用我们自定义的布局和样式
+# theme: minima
