@@ -3,7 +3,7 @@ layout: page
 title: "Roadmap"
 ---
 
-## ChainFox Development Roadmap
+## Chain-Fox Development Roadmap
 
 ### Phase 1: Foundation & Core Development (Month 1–3)
 
@@ -25,7 +25,7 @@ title: "Roadmap"
 ### Phase 2: Ecosystem Expansion & Threat Intelligence (Month 3–6)
 
 #### Community & Company Formation
-- Launch ChainFox Security Company for consulting and audits
+- Launch Chain-Fox Security Company for consulting and audits
 - Connect checker developers with users for custom tools
 - Onboard certified auditors for advanced user requests
 
@@ -42,19 +42,19 @@ title: "Roadmap"
 ### Phase 3: Developer Tools, Community, and Monetization (Month 6–9)
 
 #### Developer Enablement
-- Release ChainFox SDK for external integrations
+- Release Chain-Fox SDK for external integrations
 - Launch IDE plugins (VSCode, JetBrains) for inline threat alerts
 - Add live playground for testing and debugging custom checkers
 
 #### Access, Mobile, and API
-- Develop and release the ChainFox mobile app for alerts and monitoring
+- Develop and release the Chain-Fox mobile app for alerts and monitoring
 - Open multi-chain threat intelligence API to developers and partners
 - Offer audit subscription packages with priority support and scanning
 
 #### Community Building & Education
 - Launch bug bounty program for responsible disclosures
-- Establish ChainFox University with structured Web3 security education
-- Roll out ChainFox Ambassador Program to drive regional growth
+- Establish Chain-Fox University with structured Web3 security education
+- Roll out Chain-Fox Ambassador Program to drive regional growth
 - Open security marketplace for audit tools, checkers, and services
 
 ## Key Strategic Initiatives
@@ -76,7 +76,7 @@ title: "Roadmap"
   }
 }}%%
 gantt
-    title ChainFox Strategic Development Roadmap
+    title Chain-Fox Strategic Development Roadmap
     dateFormat  YYYY-MM
     axisFormat %b
     
@@ -120,7 +120,7 @@ graph LR
     classDef phase2 fill:#9B59B6,stroke:#8E44AD,color:#ECF0F1,stroke-width:2px
     classDef phase3 fill:#2ECC71,stroke:#27AE60,color:#ECF0F1,stroke-width:2px
     
-    Root[ChainFox<br>Strategic Core]
+    Root[Chain-Fox<br>Strategic Core]
     
     %% First level branches
     Root --- Tech[Technical<br>Innovation]
@@ -210,9 +210,9 @@ graph LR
 
 | Priority | Strategy | Phase | Implementation Method | Strategic Value |
 |:---:|---------|:---:|---------|---------|
-| 🟢 | **Launchpad Integration** | 3 | Partner with token launch platforms to require ChainFox audits | • Number of launchpad partnerships<br>• Number of projects acquired through launchpads<br>• Degree of industry standard establishment |
+| 🟢 | **Launchpad Integration** | 3 | Partner with token launch platforms to require Chain-Fox audits | • Number of launchpad partnerships<br>• Number of projects acquired through launchpads<br>• Degree of industry standard establishment |
 | 🟠 | **Trust Badge API** | 2 | Embeddable live audit status for DeFi/NFT project websites | • Number of projects adopting the trust badge<br>• Badge click/verification count<br>• User trust improvement |
-| 🟢 | **Retroactive Grants** | 3 | Rewards for open-source contributors whose tools benefit ChainFox | • Total grants distributed<br>• Number of projects/developers benefited<br>• Community reputation enhancement metrics |
+| 🟢 | **Retroactive Grants** | 3 | Rewards for open-source contributors whose tools benefit Chain-Fox | • Total grants distributed<br>• Number of projects/developers benefited<br>• Community reputation enhancement metrics |
 
 ### Key Milestones & Objectives
 
@@ -231,7 +231,7 @@ graph LR
   }
 }}%%
 timeline
-    title ChainFox Key Milestones
+    title Chain-Fox Key Milestones
     section Phase 1 (Months 1-3)
         Q1: Complete Modular Checker System architecture
         : Release first On-Chain Audit Proof standard
