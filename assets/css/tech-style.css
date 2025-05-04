@@ -3,11 +3,14 @@
 :root {
   --bg-dark: #0a0a1a;
   --bg-grid: #101030;
-  --text-primary: #ffffff;
-  --text-secondary: #a0a0ff;
-  --accent-blue: #3a6aff;
-  --accent-purple: #7a3aff;
-  --accent-green: #00ff9d;
+  --text-primary: #f8f9fa;
+  --text-secondary: #d0d8ff;
+  --accent-blue: #4a7bff;
+  --accent-purple: #8a4dff;
+  --accent-green: #2cffb0;
+  --accent-teal: #38c8d1;
+  --accent-coral: #ff6e6e;
+  --accent-amber: #ffca58;
   --card-bg: rgba(20, 20, 40, 0.7);
   --border-glow: rgba(100, 100, 255, 0.3);
 }
@@ -36,7 +39,7 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background: radial-gradient(circle at 50% 50%, rgba(58, 106, 255, 0.1), transparent 60%);
+  background: radial-gradient(circle at 50% 50%, rgba(74, 123, 255, 0.1), transparent 60%);
   z-index: -1;
   pointer-events: none;
 }
@@ -123,7 +126,7 @@ body::before {
   box-shadow: 0 6px 25px rgba(0, 0, 0, 0.4);
 }
 
-/* 白皮书内容样式 */
+/* Whitepaper Content */
 .whitepaper-content {
   line-height: 1.8;
   font-size: 1.1rem;
@@ -138,7 +141,7 @@ body::before {
   margin-top: 2.5rem;
   margin-bottom: 1.2rem;
   font-size: 2rem;
-  color: var(--accent-blue);
+  color: var(--accent-teal);
   border-bottom: 1px solid var(--border-glow);
   padding-bottom: 0.8rem;
   letter-spacing: 0.5px;
@@ -148,8 +151,16 @@ body::before {
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-size: 1.5rem;
-  color: var(--text-secondary);
+  color: var(--accent-blue);
   letter-spacing: 0.3px;
+}
+
+.whitepaper-content h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.8rem;
+  font-size: 1.2rem;
+  color: var(--accent-coral);
+  letter-spacing: 0.2px;
 }
 
 .whitepaper-content ul,
@@ -163,8 +174,141 @@ body::before {
 }
 
 .whitepaper-content strong {
-  color: var(--accent-blue);
+  color: var(--accent-amber);
   font-weight: 600;
+}
+
+/* Tables */
+.whitepaper-content table {
+  width: 100%;
+  margin: 2rem 0;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  background: rgba(30, 30, 60, 0.3);
+}
+
+.whitepaper-content th {
+  background: rgba(74, 123, 255, 0.2);
+  color: var(--accent-teal);
+  font-weight: 600;
+  text-align: left;
+  padding: 1rem;
+  border-bottom: 1px solid var(--border-glow);
+}
+
+.whitepaper-content td {
+  padding: 0.8rem 1rem;
+  border-bottom: 1px solid rgba(74, 123, 255, 0.1);
+  border-right: 1px solid rgba(74, 123, 255, 0.1);
+}
+
+.whitepaper-content tr:last-child td {
+  border-bottom: none;
+}
+
+.whitepaper-content td:last-child {
+  border-right: none;
+}
+
+.whitepaper-content tr:hover {
+  background: rgba(74, 123, 255, 0.05);
+}
+
+/* Math Formulas */
+.whitepaper-content .katex-display {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: rgba(30, 30, 60, 0.3);
+  border-radius: 8px;
+  border: 1px solid var(--border-glow);
+  overflow-x: auto;
+}
+
+.whitepaper-content .katex {
+  font-size: 1.1rem;
+  color: var(--text-primary);
+}
+
+/* Mermaid Diagrams Container */
+.mermaid-wrapper {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  margin: 2rem 0;
+  background: rgba(30, 30, 60, 0.3);
+  border-radius: 8px;
+  border: 1px solid var(--border-glow);
+  padding: 1rem;
+}
+
+/* Mermaid Diagrams */
+.mermaid {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  min-width: 600px; /* Minimum width to ensure readability */
+  max-width: 900px; /* Maximum width to prevent excessive stretching */
+}
+
+/* Basic Mermaid styling */
+.mermaid svg {
+  width: 100% !important;
+  height: auto !important;
+  background: transparent !important;
+}
+
+/* Improve text readability in diagrams */
+.mermaid .label {
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .mermaid-wrapper {
+    padding: 0.5rem;
+  }
+
+  .mermaid {
+    min-width: 500px; /* Smaller minimum width on mobile */
+  }
+}
+
+/* Vision Pillars */
+.vision-pillars {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.pillar {
+  background: rgba(30, 30, 60, 0.3);
+  border-radius: 8px;
+  border: 1px solid var(--border-glow);
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.pillar:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  border-color: var(--accent-blue);
+}
+
+.pillar h4 {
+  color: var(--accent-coral);
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.pillar p {
+  margin-bottom: 0;
+  font-size: 0.95rem;
 }
 
 /* 标题样式 */
@@ -178,7 +322,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
-  background: linear-gradient(90deg, var(--text-primary), var(--accent-blue));
+  background: linear-gradient(90deg, var(--accent-teal), var(--accent-blue));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -187,18 +331,18 @@ h1 {
 h2 {
   font-size: 2rem;
   margin-bottom: 1.2rem;
-  color: var(--accent-blue);
+  color: var(--accent-teal);
 }
 
 h3 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
-  color: var(--text-secondary);
+  color: var(--accent-blue);
 }
 
 /* 链接样式 */
 a {
-  color: var(--accent-blue);
+  color: var(--accent-teal);
   text-decoration: none;
   transition: color 0.3s ease;
 }
@@ -221,14 +365,14 @@ a:hover {
   transition: all 0.3s ease;
   border: none;
   cursor: pointer;
-  box-shadow: 0 4px 15px rgba(58, 106, 255, 0.4);
+  box-shadow: 0 4px 15px rgba(74, 123, 255, 0.4);
   letter-spacing: 0.5px;
   text-transform: uppercase;
 }
 
 .btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(58, 106, 255, 0.6);
+  box-shadow: 0 6px 20px rgba(74, 123, 255, 0.6);
   text-decoration: none;
   color: var(--text-primary);
   background: linear-gradient(90deg, var(--accent-purple), var(--accent-blue));
@@ -267,7 +411,7 @@ a:hover {
 }
 
 .stat-card:nth-child(2) .stat-value {
-  color: var(--accent-blue);
+  color: var(--accent-teal);
 }
 
 .stat-card:nth-child(3) .stat-value {
@@ -302,7 +446,7 @@ a:hover {
 .key-feature-icon {
   font-size: 1.8rem;
   margin-bottom: 1rem;
-  color: var(--accent-blue);
+  color: var(--accent-teal);
 }
 
 .key-feature-title {
@@ -339,7 +483,7 @@ a:hover {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background-color: var(--accent-blue);
+  background-color: var(--accent-teal);
   transition: all 0.3s ease;
 }
 
@@ -353,12 +497,12 @@ a:hover {
 }
 
 .chapter-list a:hover {
-  color: var(--accent-blue);
+  color: var(--accent-teal);
   transform: translateX(3px);
 }
 
 .chapter-list a.active {
-  color: var(--accent-blue);
+  color: var(--accent-teal);
   font-weight: 600;
 }
 
@@ -367,12 +511,11 @@ a:hover {
   transform: scale(1.2);
 }
 
-/* 页脚 */
+/* Footer */
 .site-footer {
-  background-color: rgba(10, 10, 26, 0.8);
-  backdrop-filter: blur(10px);
-  border-top: 1px solid var(--border-glow);
-  padding: 2rem 0;
+  background-color: var(--bg-dark);
+  border-top: 1px solid rgba(30, 30, 60, 0.5);
+  padding: 1.5rem 0;
   margin-top: 3rem;
 }
 
@@ -382,27 +525,36 @@ a:hover {
   align-items: center;
 }
 
-.footer-links {
+.footer-copyright {
   display: flex;
-  gap: 1.5rem;
-}
-
-.footer-link {
-  color: var(--text-secondary);
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.footer-link:hover {
-  color: var(--text-primary);
-}
-
-.copyright {
+  align-items: center;
+  gap: 1rem;
   color: var(--text-secondary);
   font-size: 0.9rem;
 }
 
-/* 响应式设计 */
+.footer-logo {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.footer-social {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.social-icon {
+  color: var(--text-secondary);
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: var(--text-primary);
+}
+
+/* Responsive Design */
 @media (max-width: 768px) {
   .stats-container {
     flex-direction: column;
@@ -414,7 +566,16 @@ a:hover {
 
   .footer-content {
     flex-direction: column;
-    gap: 1rem;
+    gap: 1.5rem;
+  }
+
+  .footer-copyright {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-social {
+    margin-top: 0.5rem;
   }
 }
 
@@ -456,7 +617,7 @@ th, td {
 
 th {
   background-color: rgba(30, 30, 60, 0.5);
-  color: var(--text-primary);
+  color: var(--accent-amber);
   font-weight: 600;
 }
 
@@ -466,7 +627,7 @@ tr:hover {
 
 /* 引用样式 */
 blockquote {
-  border-left: 4px solid var(--accent-blue);
+  border-left: 4px solid var(--accent-teal);
   padding-left: 1rem;
   margin-left: 0;
   color: var(--text-secondary);
@@ -504,11 +665,11 @@ blockquote {
 }
 
 .language-btn:hover, .language-btn.active {
-  background-color: var(--accent-blue);
+  background-color: var(--accent-teal);
   color: var(--text-primary);
 }
 
-/* 白皮书标题区域 */
+/* Whitepaper Header Area */
 .whitepaper-header {
   text-align: center;
   padding: 4rem 0 5rem;
@@ -518,12 +679,28 @@ blockquote {
   border-bottom: 1px solid var(--border-glow);
 }
 
+.logo-container {
+  margin-bottom: 2rem;
+}
+
+.header-logo {
+  max-width: 150px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.header-logo:hover {
+  transform: scale(1.05);
+}
+
 .whitepaper-header h1 {
   font-size: 3.5rem;
   margin-bottom: 1.5rem;
   letter-spacing: 1px;
   text-transform: uppercase;
-  background: linear-gradient(90deg, var(--accent-blue), var(--accent-purple));
+  background: linear-gradient(90deg, var(--accent-teal), var(--accent-purple));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -544,7 +721,7 @@ blockquote {
   left: 0;
   width: 100%;
   height: 100%;
-  background: radial-gradient(circle at 50% 50%, rgba(122, 58, 255, 0.15), transparent 70%);
+  background: radial-gradient(circle at 50% 50%, rgba(138, 77, 255, 0.15), transparent 70%);
   z-index: -1;
 }
 
@@ -569,7 +746,7 @@ blockquote {
   margin-top: 1.5rem;
 }
 
-/* 页面导航 */
+/* Page Navigation */
 .page-navigation {
   margin-top: 3rem;
   margin-bottom: 2rem;
@@ -588,7 +765,7 @@ blockquote {
   font-size: 0.9rem;
   padding: 0.7rem 1.2rem;
   border-radius: 6px;
-  background: rgba(58, 106, 255, 0.1);
+  background: rgba(74, 123, 255, 0.1);
   border: 1px solid var(--border-glow);
   box-shadow: none;
   text-transform: none;
@@ -596,7 +773,7 @@ blockquote {
 }
 
 .nav-prev:hover, .nav-next:hover {
-  background: rgba(58, 106, 255, 0.2);
+  background: rgba(74, 123, 255, 0.2);
   transform: translateY(-2px);
 }
 
@@ -605,7 +782,7 @@ blockquote {
   margin: 0 0.3rem;
 }
 
-/* 页面头部 */
+/* Page Header */
 .page-header {
   margin-bottom: 2rem;
   padding: 3rem 0 1.5rem;
@@ -614,17 +791,33 @@ blockquote {
   border-bottom: 1px solid var(--border-glow);
 }
 
+.page-header .logo-container {
+  margin-bottom: 1.5rem;
+}
+
+.page-header .header-logo {
+  max-width: 100px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.page-header .header-logo:hover {
+  transform: scale(1.05);
+}
+
 .page-header h1 {
   font-size: 2.8rem;
   margin-bottom: 0;
   letter-spacing: 1px;
-  background: linear-gradient(90deg, var(--accent-blue), var(--accent-purple));
+  background: linear-gradient(90deg, var(--accent-teal), var(--accent-purple));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
-/* 白皮书布局 */
+/* Whitepaper Layout */
 .whitepaper-container {
   display: flex;
   gap: 2.5rem;
@@ -655,13 +848,13 @@ blockquote {
   margin-top: 0;
   margin-bottom: 1.2rem;
   font-size: 1.4rem;
-  color: var(--accent-blue);
+  color: var(--accent-teal);
   border-bottom: 1px solid var(--border-glow);
   padding-bottom: 0.8rem;
   letter-spacing: 0.5px;
 }
 
-/* 章节目录 */
+/* Chapter Table of Contents */
 .chapter-toc {
   margin-top: 3rem;
   padding: 1.5rem;
@@ -674,17 +867,17 @@ blockquote {
   margin-top: 0;
   margin-bottom: 1rem;
   font-size: 1.5rem;
-  color: var(--accent-blue);
+  color: var(--accent-teal);
   border-bottom: 1px solid var(--border-glow);
   padding-bottom: 0.5rem;
 }
 
 .chapter-list a.active {
-  color: var(--accent-blue);
+  color: var(--accent-teal);
   font-weight: 600;
 }
 
-/* 响应式布局 */
+/* Responsive Layout */
 @media (max-width: 768px) {
   .whitepaper-container {
     flex-direction: column;

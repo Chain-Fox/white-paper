@@ -1,22 +1,22 @@
 title: "Chain-Fox"
-description: "革命性的区块链安全解决方案，通过自动化漏洞检测保护您的智能合约"
-baseurl: "/white-paper"  # 如果您的网站托管在子目录中，请设置此项
-url: ""  # 您的网站 URL
-lang: "zh-CN"  # 默认语言
+description: "A revolutionary blockchain security solution protecting smart contracts through automated vulnerability detection"
+baseurl: "/white-paper"  # Set this if your site is hosted in a subdirectory
+url: ""  # Your site URL
+lang: "en"  # Default language
 
-# 社交媒体链接
+# Social media links
 social:
   github: Chain-Fox
   twitter: ChainFoxSec
   discord: chainfox
   telegram: chainfox
 
-# 导航链接
+# Navigation links
 nav_links:
-  - title: "首页"
+  - title: "Home"
     url: "/"
-  - title: "白皮书"
+  - title: "Whitepaper"
     url: "/chapters/01-introduction.html"
 
-# 不使用默认主题，而是使用我们自定义的布局和样式
+# Using custom layouts and styles instead of default theme
 # theme: minima
