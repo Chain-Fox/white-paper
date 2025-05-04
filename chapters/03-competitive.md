@@ -18,16 +18,15 @@ While these tools excel within their respective domains, they struggle to addres
 
 ### 3.2 Comparative Feature Matrix
 
-| Feature / Platform               | **Chain-Fox**                 | CertiK   | MythX    | Slither  | OpenZeppelin Defender |
-| -------------------------------- | ----------------------------- | -------- | -------- | -------- | --------------------- |
-| **Language Support**             | Solidity, Rust, Go, C++, Move | Solidity | Solidity | Solidity | Solidity              |
-| **Open Source**                  | ✅                             | ❌        | ❌        | ✅        | Partial               |
-| **Modular Architecture**         | ✅                             | ❌        | ❌        | ❌        | ❌                     |
-| **Real-Time Detection**          | ✅                             | ❌        | ❌        | ❌        | ❌                     |
-| **CI/CD Integration**            | ✅                             | ❌        | ✅        | Partial  | ✅                     |
-| **Community Contribution**       | ✅                             | ❌        | ❌        | ✅        | ❌                     |
-| **Tokenized Governance**         | ✅ (CFX DAO)                   | ❌        | ❌        | ❌        | ❌                     |
-| **Free Tier / Developer Access** | ✅                             | ❌        | ❌        | ✅        | Partial               |
+| Feature / Platform               | **Chain-Fox**                 | CertiK   | MythX    | OpenZeppelin Defender |
+| -------------------------------- | ----------------------------- | -------- | -------- | --------------------- |
+| **Language Support**             | Rust, Solidity, Go, C++ | Multiple languages | Solidity | Solidity              |
+| **Checkers Support**                  | SOTA Static & Dynamic checkers & Verifiers | Tools and Human Auditors     | Fuzzer       | Smart Contracts Audit        |  Partial               |
+| **Open Source**                  | ✅                             | ❌        | ❌        |  Partial               |
+| **CI/CD Integration**            | ✅                             | ❌        | ✅        | ✅                     |
+| **Community Contribution**       | ✅                             | ❌        | ❌        | ❌                     |
+| **Tokenized Governance**         | ✅ (CFX DAO)                   | ❌        | ❌        | ❌                     |
+| **Free Tier / Developer Access** | ✅                             | ❌        | ✅        | Partial               |
 
 ### 3.3 ChainFox’s Strategic Advantages
 
