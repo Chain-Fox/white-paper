@@ -48,6 +48,24 @@ Chain-Fox operates in a domain where the integrity of code, data, and financial 
 
 In the event of a critical vulnerability or attack, Chain-Fox can trigger:
 
+```mermaid
+flowchart TD
+    A[Critical Vulnerability Detected] --> B{Severity Assessment}
+    B -->|High| C[Emergency DAO Vote]
+    B -->|Medium| D[Technical Committee Review]
+    B -->|Low| E[Standard Fix Process]
+    C --> F[Pause Affected Modules]
+    C --> G[Redirect Rewards to Insurance]
+    F & G --> H[Fast-Track Audit]
+    H --> I[Deploy Emergency Fix]
+    I --> J[Resume Operations]
+    D --> K[Prioritized Fix Development]
+    K --> L[Standard Testing]
+    L --> M[Deploy in Next Release]
+    E --> N[Add to Development Backlog]
+    N --> O[Regular Release Cycle]
+```
+
 * Emergency DAO vote to pause affected modules
 * Redirect of rewards into an insurance pool
 * Fast-track audit response by technical committee

@@ -32,6 +32,41 @@ While these tools excel within their respective domains, they struggle to addres
 
 ChainFox is meticulously engineered to meet the needs of next-generation multi-chain decentralized applications (dApps) and infrastructure developers. Its competitive edge is anchored in the following differentiators:
 
+```mermaid
+%%{init: {
+  'theme': 'base',
+  'themeVariables': {
+    'primaryColor': '#2C3E50',
+    'primaryTextColor': '#ECF0F1',
+    'primaryBorderColor': '#34495E',
+    'lineColor': '#AEB6BF',
+    'secondaryColor': 'transparent',
+    'tertiaryColor': 'transparent',
+    'fontFamily': 'Arial, sans-serif',
+    'fontSize': '16px'
+  }
+}}%%
+graph LR
+    subgraph "ChainFox Strategic Advantages"
+    A["Multi-Language Support"]:::multiLang --- A1["30%"]
+    B["Open-Source Architecture"]:::openSource --- B1["25%"]
+    C["Automation Capabilities"]:::automation --- C1["25%"]
+    D["Tokenized Governance"]:::governance --- D1["20%"]
+    end
+
+    classDef multiLang fill:#3498DB,stroke:#2980B9,color:#ECF0F1,stroke-width:2px
+    classDef openSource fill:#27AE60,stroke:#229954,color:#ECF0F1,stroke-width:2px
+    classDef automation fill:#F1C40F,stroke:#F39C12,color:#34495E,stroke-width:2px
+    classDef governance fill:#E74C3C,stroke:#C0392B,color:#ECF0F1,stroke-width:2px
+```
+
+| Strategic Advantage | Key Benefits |
+|-------------------|-------------|
+| **Multi-Language Support** | Enables security analysis across diverse blockchain ecosystems |
+| **Open-Source Architecture** | Facilitates community-driven innovation and customization |
+| **Automation Capabilities** | Streamlines security processes and enhances development velocity |
+| **Tokenized Governance** | Aligns incentives and promotes sustainable ecosystem growth |
+
 - **Comprehensive Multi-Language Support**: By natively supporting **Solidity, Rust, Go, C++, and Move**, ChainFox ensures robust security analysis for a wide range of blockchain protocols beyond Ethereum, including Solana, Polkadot, Cosmos, Aptos, and Sui. This versatility positions ChainFox as a future-proof solution for diverse development stacks.
 - **Open-Source and Modular Design**: ChainFox’s community-driven, open-source model, combined with its modular checker architecture, enables rapid evolution and the deployment of custom detection rules. This flexibility ensures the platform remains agile in addressing emerging threats and ecosystem requirements.
 - **Automation-Centric Approach**: Designed for seamless integration into CI/CD pipelines, ChainFox delivers real-time, automated vulnerability detection, eliminating manual bottlenecks. This scalability empowers developers to maintain continuous security without compromising development velocity.

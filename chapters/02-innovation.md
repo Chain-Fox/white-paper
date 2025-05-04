@@ -16,6 +16,78 @@ This multi-language capability is powered by a modular checker architecture, pos
 
 ChainFox leverages a **plug-and-play checker framework** with specialized analyzers tailored to each supported programming language:
 
+```mermaid
+%%{init: {
+  'theme': 'base',
+  'themeVariables': {
+    'primaryColor': '#2C3E50',
+    'primaryTextColor': '#ECF0F1',
+    'primaryBorderColor': '#34495E',
+    'lineColor': '#AEB6BF',
+    'secondaryColor': '#FFFFFF',
+    'tertiaryColor': '#FFFFFF',
+    'fontFamily': 'Arial, sans-serif',
+    'fontSize': '16px',
+    'nodeBorder': '#34495E',
+    'mainBkg': '#2C3E50',
+    'clusterBkg': '#1E2B3C',
+    'edgeLabelBackground': '#1E2B3C',
+    'nodeTextColor': '#ECF0F1',
+    'backgroundColor': '#1E2B3C'
+  }
+}}%%
+flowchart TD
+    A((ChainFox Core)):::core
+    B[Language-Specific Checkers]:::checkerGroup
+
+    C[solidity-checker]:::solidity
+    D[rust-checker]:::rust
+    E[go-checker]:::go
+    F[cpp-checker]:::cpp
+    G[move-checker]:::move
+
+    H[Ethereum]:::ethereum
+    I[EVM Chains]:::evm
+    J[Solana]:::solana
+    K[Substrate]:::substrate
+    L[Node Applications]:::node
+    M[Client Applications]:::client
+    N[Aptos]:::aptos
+    O[Sui]:::sui
+
+    A --- B
+    B --- C
+    B --- D
+    B --- E
+    B --- F
+    B --- G
+
+    C --- H
+    C --- I
+    D --- J
+    D --- K
+    E --- L
+    F --- M
+    G --- N
+    G --- O
+
+    classDef core fill:#3498DB,stroke:#2980B9,color:#ECF0F1,stroke-width:2px
+    classDef checkerGroup fill:#2C3E50,stroke:#34495E,color:#ECF0F1,stroke-width:1px
+    classDef solidity fill:#9B59B6,stroke:#8E44AD,color:#ECF0F1,stroke-width:1px
+    classDef ethereum fill:#8E44AD,stroke:#7D3C98,color:#ECF0F1,stroke-width:1px
+    classDef evm fill:#8E44AD,stroke:#7D3C98,color:#ECF0F1,stroke-width:1px
+    classDef rust fill:#E67E22,stroke:#D35400,color:#ECF0F1,stroke-width:1px
+    classDef solana fill:#D35400,stroke:#BA4A00,color:#ECF0F1,stroke-width:1px
+    classDef substrate fill:#D35400,stroke:#BA4A00,color:#ECF0F1,stroke-width:1px
+    classDef go fill:#16A085,stroke:#138D75,color:#ECF0F1,stroke-width:1px
+    classDef node fill:#138D75,stroke:#117A65,color:#ECF0F1,stroke-width:1px
+    classDef cpp fill:#2980B9,stroke:#2471A3,color:#ECF0F1,stroke-width:1px
+    classDef client fill:#2471A3,stroke:#1F618D,color:#ECF0F1,stroke-width:1px
+    classDef move fill:#27AE60,stroke:#229954,color:#ECF0F1,stroke-width:1px
+    classDef aptos fill:#229954,stroke:#1E8449,color:#ECF0F1,stroke-width:1px
+    classDef sui fill:#229954,stroke:#1E8449,color:#ECF0F1,stroke-width:1px
+```
+
 - **`solidity-checker`**: Optimized for Ethereum-based smart contracts.
 - **`rust-checker`**: Engineered for Solana, Substrate, and other low-level blockchain protocols.
 - **`go-checker` and `cpp-checker`**: Designed for application-level node and client code.
@@ -26,6 +98,16 @@ Each module is independently maintainable and extensible, enabling rapid adaptat
 ### 2.3 Fully Automated End-to-End Security Analysis
 
 ChainFox redefines the auditing process by providing **fully automated vulnerability detection pipelines**, significantly reducing reliance on manual interventions. This approach dramatically lowers the time and cost associated with traditional smart contract audits, democratizing access to enterprise-grade security for developers, startups, and organizations.
+
+| Approach | Traditional Auditing | ChainFox Automated Analysis |
+|----------|---------------------|----------------------------|
+| **Time to Complete** | Days to weeks | Minutes to hours |
+| **Cost Structure** | High fixed costs | Pay-per-use / subscription |
+| **Scalability** | Limited by auditor availability | Unlimited, on-demand |
+| **Coverage** | Depends on auditor expertise | Comprehensive, rule-based |
+| **Consistency** | Varies between auditors | Standardized detection rules |
+| **Integration** | Manual, separate process | Seamless CI/CD integration |
+| **Adaptability** | Requires re-audit | Continuous monitoring |
 
 The automation framework encompasses:
 

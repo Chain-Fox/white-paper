@@ -1,3 +1,22 @@
-title: "The White Paper of Chain-Fox"
-description: "The White Paper of Chain-Fox"
-theme: minima  # Clean default theme
+title: "Chain-Fox"
+description: "A revolutionary blockchain security solution protecting smart contracts through automated vulnerability detection"
+baseurl: "/white-paper"  # Set this if your site is hosted in a subdirectory
+url: ""  # Your site URL
+lang: "en"  # Default language
+
+# Social media links
+social:
+  github: Chain-Fox
+  twitter: ChainFoxHQ
+  discord: 8F97BPf9
+  telegram: chainfox
+
+# Navigation links
+nav_links:
+  - title: "Home"
+    url: "/"
+  - title: "Whitepaper"
+    url: "/chapters/01-introduction.html"
+
+# Using custom layouts and styles instead of default theme
+# theme: minima

@@ -1,0 +1,36 @@
+# Jekyll build directory
+_site/
+
+# Jekyll cache
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby environment
+.ruby-version
+Gemfile.lock
+
+# Bundler cache
+.bundle/
+vendor/
+
+# Mac OS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Windows specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux specific files
+*~
+.directory
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo

@@ -52,6 +52,24 @@ Chain-Fox was built with developer-first principles: open-source, modular, and e
 
 The ecosystem grows stronger with each contributor and each audit:
 
+```mermaid
+flowchart TD
+    A[More Developers] -->|Contribute| B[More Checkers]
+    B -->|Enhance| C[More Scanning Features]
+    C -->|Attract| D[More Users]
+    D -->|Generate| E[More Scan Volume]
+    E -->|Produce| F[More Fees]
+    F -->|Fund| G[More Rewards]
+    G -->|Incentivize| A
+    F -->|Increase| H[Token Utility]
+    H -->|Encourage| I[More Staking]
+    I -->|Reduce| J[Circulating Supply]
+    J -->|Drive| K[Higher Token Value]
+    K -->|Motivate| L[More Governance Participation]
+    L -->|Improve| M[Platform Quality]
+    M -->|Attract| D
+```
+
 * More developers → more Checkers → more scanning features
 * More users → more scan volume → more fees → more rewards
 * More token utility → more staking → reduced supply → higher token value
