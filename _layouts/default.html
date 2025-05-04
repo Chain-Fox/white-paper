@@ -6,6 +6,9 @@
   <title>{% if page.title %}{{ page.title | escape }} - {{ site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
+  <!-- Favicon -->
+  <link rel="icon" href="{{ "/logo.png" | relative_url }}" type="image/png">
+
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,18 +21,41 @@
   <link rel="stylesheet" href="{{ "/assets/css/tech-style.css" | relative_url }}">
 </head>
 <body>
-  <!-- 导航栏已移除 -->
+  <!-- Navigation bar removed -->
 
-  <!-- 主要内容 -->
+  <!-- Main content -->
   <main class="site-content">
     <div class="container">
       {{ content }}
     </div>
   </main>
 
-  <!-- 页脚已移除 -->
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-copyright">
+          <img src="{{ "/logo.png" | relative_url }}" alt="{{ site.title }} Logo" class="footer-logo">
+          <span>&copy; {{ site.time | date: '%Y' }} Chain Fox. All rights reserved.</span>
+        </div>
+        <div class="footer-social">
+          <a href="https://x.com/{{ site.social.twitter }}" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+          <a href="https://github.com/{{ site.social.github }}" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+          <a href="https://discord.gg/{{ site.social.discord }}" target="_blank" class="social-icon"><i class="fab fa-discord"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
 
   <!-- JavaScript -->
   <script src="{{ "/assets/js/main.js" | relative_url }}"></script>
+
+  <!-- MathJax for rendering mathematical formulas -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <!-- Mermaid for rendering diagrams -->
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <script src="{{ "/assets/js/mermaid-init.js" | relative_url }}"></script>
 </body>
 </html>

@@ -1,8 +1,8 @@
-// Chain-Fox 白皮书网站 JavaScript
+// Chain-Fox Whitepaper Website JavaScript
 
 document.addEventListener('DOMContentLoaded', function() {
-  // 平滑滚动
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  // Smooth scrolling for anchor links (excluding navigation buttons)
+  document.querySelectorAll('a[href^="#"]:not(.nav-prev):not(.nav-next)').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
       e.preventDefault();
       const target = document.querySelector(this.getAttribute('href'));
@@ -14,17 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
-  // 语言切换功能
-  const languageBtns = document.querySelectorAll('.language-btn');
-  languageBtns.forEach(btn => {
-    btn.addEventListener('click', function() {
-      languageBtns.forEach(b => b.classList.remove('active'));
-      this.classList.add('active');
-      // 这里可以添加实际的语言切换逻辑
-    });
-  });
-
-  // 添加简单的滚动动画效果
+  // Add scroll animation effect
   const animateOnScroll = function() {
     const elements = document.querySelectorAll('.card, .whitepaper-sidebar, .chapter-toc');
 
@@ -38,18 +28,32 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   };
 
-  // 添加可见性类
+  // Add visibility classes
   const cards = document.querySelectorAll('.card, .whitepaper-sidebar, .chapter-toc');
   cards.forEach(card => {
     card.classList.add('animate-on-scroll');
   });
 
-  // 初始检查和滚动监听
+  // Initial check and scroll listener
   animateOnScroll();
   window.addEventListener('scroll', animateOnScroll);
+
+  // Ensure navigation buttons work correctly
+  document.querySelectorAll('.nav-prev, .nav-next').forEach(navButton => {
+    navButton.addEventListener('click', function() {
+      // Allow default behavior for navigation buttons
+      // This ensures they navigate to the linked page
+      const href = this.getAttribute('href');
+      if (href && !href.startsWith('#')) {
+        // It's a page navigation link, not an anchor link
+        // Let the default behavior handle it
+        return true;
+      }
+    });
+  });
 });
 
-// 添加简单的动画样式
+// Add animation styles
 const style = document.createElement('style');
 style.textContent = `
   .animate-on-scroll {

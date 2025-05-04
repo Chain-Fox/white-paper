@@ -6,12 +6,8 @@
         Chain-Fox
       </a>
       <div class="nav-links">
-        <a class="nav-link {% if page.url == '/' %}active{% endif %}" href="{{ "/" | relative_url }}">首页</a>
-        <a class="nav-link {% if page.url contains '/chapters/' %}active{% endif %}" href="{{ "/chapters/01-introduction.html" | relative_url }}">白皮书</a>
-        <div class="language-switch">
-          <button class="language-btn active">中文</button>
-          <button class="language-btn">English</button>
-        </div>
+        <a class="nav-link {% if page.url == '/' %}active{% endif %}" href="{{ "/" | relative_url }}">Home</a>
+        <a class="nav-link {% if page.url contains '/chapters/' %}active{% endif %}" href="{{ "/chapters/01-introduction.html" | relative_url }}">Whitepaper</a>
       </div>
     </nav>
   </div>
