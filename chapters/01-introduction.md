@@ -21,7 +21,7 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    H[ChainFox Solution] --> I[Automated Detection]
+    H[Chain-Fox Solution] --> I[Automated Detection]
     H --> J[Multi-Language Support]
     H --> K[Real-Time Analysis]
     I --> L[Reduced Costs]
@@ -30,9 +30,9 @@ flowchart TD
     L & M & N --> O[Secure Web3 Ecosystem]
 ```
 
-**ChainFox** addresses these challenges by introducing a comprehensive, automated security platform designed to strengthen blockchains and smart contracts. Powered by advanced detection engines, ChainFox delivers real-time vulnerability analysis across a wide range of programming languages used in blockchain development. By automating the auditing process, the platform significantly reduces costs, accelerates deployment timelines, and enhances the accessibility of robust security measures for developers and organizations.
+**Chain-Fox** addresses these challenges by introducing a comprehensive, automated security platform designed to strengthen blockchains and smart contracts. Powered by advanced detection engines, Chain-Fox delivers real-time vulnerability analysis across a wide range of programming languages used in blockchain development. By automating the auditing process, the platform significantly reduces costs, accelerates deployment timelines, and enhances the accessibility of robust security measures for developers and organizations.
 
-The efficiency gain of ChainFox's automated approach can be represented as:
+The efficiency gain of Chain-Fox's automated approach can be represented as:
 
 $$E = \frac{T_m}{T_a} \times \frac{C_m}{C_a}$$
 
@@ -43,8 +43,8 @@ Where:
 - $C_m$ = Cost of manual audit
 - $C_a$ = Cost of automated audit
 
-ChainFox's innovative approach integrates cutting-edge technology to provide precise, scalable, and cost-effective security solutions. By reducing reliance on manual interventions, the platform empowers developers to build and deploy secure decentralized applications with confidence, fostering trust and resilience in the Web3 ecosystem.
+Chain-Fox's innovative approach integrates cutting-edge technology to provide precise, scalable, and cost-effective security solutions. By reducing reliance on manual interventions, the platform empowers developers to build and deploy secure decentralized applications with confidence, fostering trust and resilience in the Web3 ecosystem.
 
 ### 1.2 Vision
 
-ChainFox is dedicated to transforming blockchain security through an AI-enhanced, multi-language, automated vulnerability detection platform. Our vision is to empower the Web3 ecosystem with scalable, real-time security infrastructure, ensuring blockchain applications are protected against emerging threats and vulnerabilities. Through continuous innovation and a commitment to accessibility, ChainFox aims to establish a new benchmark for secure blockchain development, enabling a safer, more inclusive decentralized future.
+Chain-Fox is dedicated to transforming blockchain security through an AI-enhanced, multi-language, automated vulnerability detection platform. Our vision is to empower the Web3 ecosystem with scalable, real-time security infrastructure, ensuring blockchain applications are protected against emerging threats and vulnerabilities. Through continuous innovation and a commitment to accessibility, Chain-Fox aims to establish a new benchmark for secure blockchain development, enabling a safer, more inclusive decentralized future.
